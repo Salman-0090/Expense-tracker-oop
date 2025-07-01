@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif, Arial;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 65rem;
+  text-align: center;
+  border: 2px solid #363636;
+  padding: 2rem;
+  margin: 4rem auto;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.select-wrapper {
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-label,
+form-input {
+  font-size: 1.4rem;
+}
+
+#expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: block;
+  width: fit-content;
+
+  margin: 0 auto 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+h2 {
+  padding: 3rem 0;
+}
+
+.btn-expense {
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+}
+
+.list-item {
+  font-size: 1.6rem;
+}
+
+.btn-delete {
+  padding: 0.2rem 0.4rem;
+  margin-left: 1rem;
+}
